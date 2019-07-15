@@ -1,13 +1,13 @@
 export const config = {
   "dev": {
-    "username": process.env.POSTGRES_USERNAME, //"mkudagramdev2",
-    "password": process.env.POSTGRES_PASSWORD, //"!udacity123",
-    "database": process.env.POSTGRES_DATABASE, //"mkudagramdev2",
-    "host": process.env.POSTGRES_HOST, //"mkudagramdev2.cnoygy0nyv5u.us-west-1.rds.amazonaws.com",
+    "username": process.env.POSTGRES_USERNAME, 
+    "password": process.env.POSTGRES_PASSWORD, 
+    "database": process.env.POSTGRES_DATABASE, 
+    "host": process.env.POSTGRES_HOST, 
     "dialect": "postgres",
-    "aws_region": process.env.POSTGRES_REGION, //"us-west-2",
+    "aws_region": process.env.POSTGRES_REGION, 
     "aws_profile": "default",
-    "aws_media_bucket": process.env.POSTGRES_MEDIABUCKET, //"udagram-mk-dev"
+    "aws_media_bucket": process.env.POSTGRES_MEDIABUCKET, 
   },
   "prod": {
     "username": "",
